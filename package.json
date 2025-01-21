@@ -1,0 +1,19 @@
+{
+  "name": "markdown-static",
+  "module": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/markdown-it": "^14.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  }
+}
